@@ -9,6 +9,7 @@ public class AppTest {
 	public void testLengthOfTheUniqueKey() {
 
 		App obj = new App();
+		System.out.println("Hello");
 		Assert.assertEquals(36, obj.generateUniqueKey().length());
 
 	}
